@@ -27,6 +27,8 @@
         
 ```
 
+## 效果
+![image](https://github.com/U7426/GiftComponent/blob/master/views.gif)
 ## Installation
 
 GiftComponent is available through [CocoaPods](https://cocoapods.org). To install
