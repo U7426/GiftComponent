@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GiftComponent_Example' do
+  pod 'GiftComponent', :path => '../'
+
+  target 'GiftComponent_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
