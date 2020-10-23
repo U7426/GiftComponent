@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/GiftComponent.svg?style=flat)](https://cocoapods.org/pods/GiftComponent)
 [![Platform](https://img.shields.io/cocoapods/p/GiftComponent.svg?style=flat)](https://cocoapods.org/pods/GiftComponent)
 
+## description
+  Manager 使用 Map + 双向链表 数据结构管理，类似LRU缓存淘汰算法。
+  所有逻辑处理在 Manger中， 展示视图只需要在manager 回调时 展示、更新、隐藏，逻辑处理 和  UI 没有耦合
+
 ## Example
 ```swift
         ///自定义配置样式（在ShowView 初始化之前配置）
@@ -22,10 +26,6 @@
         manager.receive(value: model)
         
 ```
-
-
-## description
-  Manager 使用 Map + 双向链表 数据结构管理，类似LRU缓存淘汰算法。 所有逻辑处理在 Manger中， 展示视图只需要在manager 回调时 展示、更新、隐藏。逻辑处理 和  UI 没有耦合
 
 ## Installation
 
