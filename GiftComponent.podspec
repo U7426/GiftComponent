@@ -25,18 +25,21 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'U7426' => 'u7426fenglongfei@163.com' }
-  s.source           = { :git => 'https://github.com/U7426/GiftComponent.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:U7426/GiftComponent.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'GiftComponent/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'GiftComponent' => ['GiftComponent/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'GiftComponent' => ['GiftComponent/Assets/*.xcassets']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'Kingfisher'
+  s.dependency 'SnapKit'
+  s.dependency 'RxSwift'
+  s.dependency 'RxCocoa'
 end
