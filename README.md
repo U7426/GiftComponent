@@ -7,7 +7,7 @@
 
 ## description
   Manager 使用 Map + 双向链表 数据结构管理，类似LRU缓存淘汰算法。  
-  所有逻辑处理在 Manger中， 展示视图只需要在manager 回调时 展示、更新、隐藏，逻辑处理 和  UI 没有耦合
+  所有逻辑处理在 Manger中， 展示视图只需要在manager 回调时 展示、更新、隐藏，逻辑处理 和  UI 没有耦合。
 
 ## Example
 ```swift
