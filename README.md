@@ -17,11 +17,11 @@
         ...
         
         ///创建manager
-        let manager = GiftManager<Gift>()
+        let manager = GiftManager<Gift>() //可自定义Model，遵守GiftShowType 协议。这里以提供的默认的 Gift 为例
         manager.setupViews(views)
         
         ///将接收到的数据添加到manager
-        let model = Gift() //可自定义Model，遵守GiftShowType 协议。这里以提供的默认的 Gift 为例
+        let model = Gift() 
         model.giftID = ...
         manager.receive(value: model)
         
